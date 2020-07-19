@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Main Page</title>
+
+<style>
+body {
+	 background-image: url("https://thewallpaper.co//wp-content/uploads/2019/10//high-definition-sinking-titanic-ship-hd-wallpapers-disaster-drama-cinema-images-romance-boat-jpg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(5px);
+    background-color: black;
+     }
+</style>
+</head>
+<body>
+    <datalist id="Pclass">
+        <option>First</option>
+        <option>Second</option>
+        <option>Third</option>
+    </datalist>
+    <form action="/predict" method="POST"><br>
+        <h1 style="color:white;font-size:250%;text-align:center;font-family:purisa;text-shadow: 4px 4px 3px lightblue, 2px 2px 1px lightblue;">Predict Passenger's Survival</h1>
+        <div style="text-align:center;line-height: 10px;">
+              <input style="height:33px; width:400px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter Age of passenger..." name="age"><br><br>
+           <input style="height:33px; width:400px; text-align:center; font-size:100%;" type="text" placeholder="Choose Passenger's class..." list="Pclass" name="Pclass"> <br><br>
+           <input style="height:33px; width:400px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter Passenger's Siblings aboard..." name="SibSp"><br><br>
+           <input style="height:33px; width:400px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter passenger's Parents/children aboard..." name="Parch"><br><br>
+            <input style="height:33px; width:400px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter Fare..." name="fare"><br>
+                        <p style="color: white; font-size: larger;">  Enter Passenger's gender:
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+                        </p><br><br><br>
+       
+              <button style="background-color: lightblue; height:40px; width:150px;font-size: medium;border-width: 3px; border-color:white; border-radius: 5px; color: black;" type = "submit" value="Submit"><b>Predict</b></button>
+           </div>
+    </form>
+</body>
+</html>
