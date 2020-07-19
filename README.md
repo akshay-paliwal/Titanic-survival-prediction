@@ -42,7 +42,7 @@ git add .
 git commit -m "Final commit"
 git push heroku master
 ``` 
-The link for runnig app is - 
+The link for runnig app is - https://titanic-survival-prediction01.herokuapp.com/
 
 | ![prediction]() |
 |:--:|
