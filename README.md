@@ -2,7 +2,7 @@
 Titanic Survival Prediction with Deployment
 
 ## Introduction
-This is one of my Machine Learning assignment from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this assignment,the code was written to predict the survival of a passenger during titanic sink based on the parameters given by the user, using a pre-trained Machine Learning(Decision Tree) model. The code needs to take the parameters from the user through an HTML form, use the obtained data to predict the survival, and display the prediction to the user using another HTML page.
+This is one of my Machine Learning assignment from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this assignment, the code was written to predict the survival of a passenger during the titanic sink based on the parameters given by the user, using a pre-trained Machine Learning(Decision Tree) model. The code needs to take the parameters from the user through an HTML form, use the obtained data to predict the survival, and display the prediction to the user using another HTML page.
 
 **Decision Tree  -** It is a flowchart-like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). The paths from root to leaf represent classification rules.
 
