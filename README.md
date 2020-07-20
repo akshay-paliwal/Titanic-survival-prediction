@@ -4,7 +4,7 @@ Titanic Survival Prediction with Deployment
 ## Introduction
 This is one of my Machine Learning assignment from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this assignment, the code was written to predict the survival of a passenger during the titanic sink based on the parameters given by the user, using a pre-trained Machine Learning(Decision Tree) model. The code needs to take the parameters from the user through an HTML form, use the obtained data to predict the survival, and display the prediction to the user using another HTML page.
 
-**Decision Tree  -** It is a flowchart-like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). The paths from root to leaf represent classification rules.
+**Decision Tree  -** It is a flowchart-like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). The paths from the root to leaf represent classification rules.
 
 ## Install
 This project requires Python3. Also, some of the python libraries like Flask, and pickle(pre-installed with python).
@@ -23,7 +23,7 @@ Also, the project requires some basic HTML knowledge to build the web pages for 
 
 ## Code
 * `Step-1` Start the flask app which will run the **"main.html"** on the cloud and get the parameters given by the user.
-* `Step-2` Load the pre-trained model, stored in *modelForPrediction.sav*.
+* `Step-2` Load the pre-trained model, stored in *modelForPrediction.sav*. The model that I used for prediction has an accuracy score of 82%.
 * `Step-3` Prediction is made using the model loaded in Step-2
 * `Step-4` Show the  to the user through **"prediction.html"**
 
@@ -44,6 +44,6 @@ git push heroku master
 ``` 
 The link for runnig app is - https://titanic-survival-prediction01.herokuapp.com/
 
-| ![prediction]() |
+| ![prediction](https://user-images.githubusercontent.com/50728879/87913102-25679900-ca8c-11ea-8f23-fb8c1c84c0e3.gif) |
 |:--:|
 |***App Preview***|
