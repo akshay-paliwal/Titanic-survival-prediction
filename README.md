@@ -19,7 +19,7 @@ heroku
 Also, the project requires some basic HTML knowledge to build the web pages for taking input from the user and displaying the result to the user.
 
 ## Application Architecture
-![Blank Diagram]()
+![Blank Diagram](https://user-images.githubusercontent.com/50728879/87910694-09fa8f00-ca88-11ea-80bd-85b2959494f4.png)
 
 ## Code
 * `Step-1` Start the flask app which will run the **"main.html"** on the cloud and get the parameters given by the user.
